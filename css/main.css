@@ -91,6 +91,21 @@ footer {
 	width: 50%;
 }
 
+.paypal .buynow2 {
+	width: 60%;
+	color: #2C2E2F;
+	display: inline-block;
+	margin:  0 auto;
+	border-radius: 4px;
+	background: #ffc439 url('../page_images/paypal.svg') no-repeat center center;
+	background-size: 35%;
+	line-height: 2rem;
+}
+
+.paypal .buynow2:hover {
+    filter: brightness(0.95);
+}
+
 @media only screen and (min-width: 480px) {
 
 	main {
@@ -131,8 +146,10 @@ footer {
 		margin-bottom: 1em;
 	}
 
-	.paypal .buynow {
-		width: 30%;
+	.paypal .buynow2 {
+		width: 40%;
+		background-size: 30%;
+		line-height: 3rem;
 	}
 }
 
@@ -176,8 +193,10 @@ footer {
 		margin-bottom: 1em;
 	}
 
-	.paypal .buynow {
-		width: 25%;
+	.paypal .buynow2 {
+		width: 40%;
+		background-size: 25%;
+		line-height: 3rem;
 	}
 }
 
