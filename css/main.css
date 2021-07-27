@@ -57,6 +57,7 @@ footer {
 	text-align: center;	
 	color: #804040;
 	font-family: 'Comfortaa', cursive;
+	font-weight: 700;
 }
 
 .page_title {
@@ -117,6 +118,10 @@ footer {
     filter: brightness(0.95);
 }
 
+.nobreak {
+	white-space: nowrap;
+}
+
 @media only screen and (min-width: 480px) {
 
 	main {
@@ -138,7 +143,7 @@ footer {
 	.book_item {
 		font-size: 1rem;
 		margin-bottom: 4rem;
-		padding: 3em em;
+		padding: 4em 4em;
 		border-radius: 2vw;
 		width: 100%;
 	}
@@ -170,7 +175,7 @@ footer {
 	}
 
 	footer {
-		font-size: 1.3rem;
+		font-size: 1.35rem;
 	}
 
 	.site_title {
@@ -184,7 +189,7 @@ footer {
 	.book_item {
 		font-size: 1.3rem;
 		margin-bottom: 4rem;
-		padding: 3em em;
+		padding: 3em 5em;
 		border-radius: 2vw;
 		width: 100%;
 	}
