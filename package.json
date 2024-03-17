@@ -22,11 +22,12 @@
   "homepage": "https://github.com/palshazarweb/palshazargitpages_src#readme",
   "devDependencies": {
     "@babel/core": "^7.16.0",
-    "gulp": "^4.0.2",
+    "gulp": "^4.0.0",
     "gulp-babel": "^8.0.0-beta.2",
     "gulp-sass": "^5.0.0",
     "gulp-uglify": "^3.0.2",
     "gulp-uglifycss": "^1.1.0",
-    "pump": "^3.0.0"
+    "pump": "^3.0.0",
+    "sass": "^1.44.0"
   }
 }
